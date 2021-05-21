@@ -1,0 +1,145 @@
+/* Style generale */
+
+* {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/* Style menu */
+
+#menu_navigation {
+  background-color: black;
+}
+
+#contenu_contact {
+  text-align: center;
+}
+
+.info_contact {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 200px;
+}
+
+#reseau li {
+  display: inline;
+  /* list-style: none; */
+  /* pour enlever les puces */
+  /* on peut donner d'autres valeurs */
+  /* ils n'auront pas de margin haut et bas */
+}
+
+#menu_navigation li {
+  font-size: 30px;
+  display: inline;
+  margin-right: 60px;
+  line-height: 2em;
+  font-weight: bolder;
+}
+
+nav a {
+  color: #C4DF9A;
+}
+
+#menu_navigation,
+#reseau {
+  text-align: center;
+}
+
+/* Style image */
+
+header,
+footer {
+  background: url(https://www.actimonde.fr/wp-content/uploads/2021/04/integrateur-web.jpg);
+}
+
+.contact {
+  height: 40px;
+  width: 40px;
+}
+
+#ma_photo {
+  width: 200px;
+  height: 200px;
+  border: 5px;
+  box-shadow: 0px 0px 20px rgb(17, 16, 16);
+  float: left;
+  margin-right: 50px;
+}
+
+#formations img {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 70px;
+}
+
+
+/* Style text */
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: #da1111;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}
+
+h1,
+h2 {
+  text-align: center;
+  border: 3px double;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  background-color: black;
+  color: #C4DF9A;
+  position: sticky;
+  top: 0px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+footer>h2 {
+  background-color: black;
+  color: white;
+}
+
+#label {
+  text-align: right;
+}
+
+#titre_contenu {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* #titre_contact {
+  color: #000000;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+} */
